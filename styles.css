@@ -1,0 +1,55 @@
+body {
+    margin: 20px;
+    background-color: #141618;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #3e444a;
+    color: #ecede1;
+    border-bottom: 6px solid #e34a32;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to top, #e34a32 50%, #3e444a 50%);
+    background-size: 100% 200%;
+    background-position: top;
+    transition: background-position 0.5s ease-in-out;
+}
+
+.card:hover {
+    opacity: 1;
+    background-color: #e34a32;
+    background-position: bottom;
+    opacity: 1;
+}
+.card:hover strong {
+    color: #141618;
+    transition: color 2s;
+}
+
+
+p {
+    margin: 0;
+}
+
+img {
+    border-radius: 5px;
+    box-shadow: 2px 2px #7c8894;
+}
+
+strong {
+    color: #e34a32;
+}
+
+/* Scrimba Project for Business Card on the FrontEnd Dev Course, taking a step further */
